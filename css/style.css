@@ -1,53 +1,75 @@
 * {
     padding: 0;
     margin: 0;
-    
 }
 
-.navbar {
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    background-color: black;
+    margin-bottom: 0;
+    min-height: 100%;
+}
+
+#navbar {
     display: flex;
     justify-content: space-between;
 }
 
-body{
-    background-color: rgb(35, 35, 37);
-}
 
-header{
+
+
+header {
     padding: 20px;
     background-color: black;
-    border-bottom: 1px solid rgb(6, 245, 253);
+
 }
 
-img {
+.foto-inicio {
     max-width: 65px;
     border-radius: 50%;
     border: solid 2px rgb(6, 245, 253);
 
 }
 
-header nav {    
+.banner {
+    width: 100%;
+
+}
+
+.que-es-overol {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+}
+
+header nav {
     display: flex;
 }
 
-header nav ul{
-    
+header nav ul {
+
     margin-top: 25px;
     margin-left: 20px;
     display: flex;
     list-style-type: none;
 }
 
-header nav ul li a{
-    
+header nav ul li a {
+
     color: white;
     text-decoration: none;
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 1s;   
+    transition: 1s;
 }
 
-header nav ul li a:hover{    
+header nav ul li a:hover {
     color: rgb(6, 245, 253);
     margin: 15px;
 }
@@ -56,15 +78,9 @@ header nav ul li a:hover{
     color: grey;
 }*/
 
-
-footer {
-    padding: 20px;
-    background-color: black;
-    border-top: 1px solid rgb(6, 245, 253);
-}
-
+/*
 footer nav ul{
-    margin: 15px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -76,31 +92,15 @@ footer nav ul li a{
     text-decoration: none;
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 1s;   
+    transition: 1s;
+
+}
+*/
+footer {
+    background-color: black;
 }
 
-footer nav ul li a:hover{    
+footer nav ul li a:hover {
     color: rgb(6, 245, 253);
     margin: 15px;
-}
-
-div {    
-    height: 980px;
-}
-
-div h1 {        
-    color: rgb(6, 245, 253);
-    margin: 15px;
-    margin-bottom: 0px;
-    font-size: 50px;
-    font-family: fantasy;
-    text-align: center;    
-}
-
-div h4 {
-    color: rgb(6, 245, 253);
-    margin-top: 1px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
