@@ -14,44 +14,26 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary " >
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid">
+                <a href="index.html"><img class="foto-inicio" src="imagenes/overol.png" alt="Inicio"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent" id="navbar">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                   
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto" id="detalle-menu">
+                        <a class="nav-link" href="html/servicios.html" id="navbar-botons">Servicios</a>
+                        <a class="nav-link" href="html/proyectos.html" id="navbar-botons">Proyectos</a>
+                        <a class="nav-link" href="html/nosotros.html" id="navbar-botons">Nosotros</a>
+                        <a class="nav-link" href="html/contacto.html" id="navbar-botons">Contacto</a>
+                    </div>
                 </div>
             </div>
         </nav>
+
+        <!-- 
         <nav class="navbar">
             <a href="index.html"><img class="foto-inicio" src="imagenes/overol.png" alt="Inicio"></a>
             <ul>
@@ -61,7 +43,9 @@
                 <li><a href="html/contacto.html">Contacto</a></li>
             </ul>
         </nav>
+    -->
     </header>
+
     <main>
         <div class="container-fluid">
             <div>
@@ -72,39 +56,36 @@
             <h2>
                 ¿QUE ES OVEROL?
             </h2>
-
-            <div class="d-flex  justify-content-center align-items-center gap-4 ">
-                <div class="card " style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4" id="es-diseño">
+                    <img src="imagenes/ilustración.jpg" id="ilustracion" alt="ilutración">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptas ab cupiditate sapiente totam
+                        illo eligendi tempore corrupti earum. Sed ut exercitationem, quae laboriosam ipsum officiis
+                        saepe maxime facilis amet!
+                    </p>
+                </div>
+                <div class="col-4" id="es-diseño">
+                    <img src="imagenes/ilustracion2.jpg" id="ilustracion" alt="ilutración">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae explicabo ducimus sapiente
+                        itaque maiores ipsum laboriosam quia. Totam sequi soluta rem temporibus nihil provident,
+                        voluptas ab qui neque libero.
+                    </p>
+                </div>
+                <div class="col-4" id="es-diseño">
+                    <img src="" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fuga, itaque a, explicabo vitae
+                        temporibus blanditiis saepe fugit accusantium, quam eaque sapiente possimus tempore eligendi
+                        nesciunt quisquam voluptatibus doloribus. Temporibus.
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
 
 
