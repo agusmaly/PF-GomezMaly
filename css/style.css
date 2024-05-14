@@ -51,8 +51,18 @@ h2 span:hover {
     margin: 2px;
 }
 
+div h4 {
+    font-size: 150%;
+    color: white;
+}
+
 div p {
-    margin-top: 1rem;
+    font-size: 70%;
+    color: white;
+}
+
+#parrafo1y2 {
+    margin-top: 0.5rem;
 }
 
 
@@ -73,16 +83,14 @@ div p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 990px) {}
+
 
 #ilustracion {
     max-width: 100%;
     margin-top: 1rem;
 }
 
-video {
-    margin: 0;
-}
+
 
 /*
 header nav ul {
