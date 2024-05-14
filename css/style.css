@@ -83,8 +83,16 @@ div p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-label {
-    color: white;
+.form-label2 {    
+    margin-top: 35px;
+}
+
+#donde {
+    margin-top: 25px;
+}
+
+#exampleFormControlTextarea1 {
+    margin: 6px;
 }
 
 #ilustracion {
@@ -98,6 +106,7 @@ div p {
     padding: 5px;
     display: inline;
     border-radius: 3px;
+    transition: 0.5s;
 }
 
 .boton-enviar:hover {
@@ -105,12 +114,36 @@ div p {
     background-color: #88D2FF;
     font-size: 1.1rem;
 }
+.boton-enviar:active {
+    background-color: #68E717;
+}
 
 
 .boton-enviar a {
     color: black;
-    text-decoration: none;
-    
+    text-decoration: none;    
+}
+
+#logos-contacto {
+    display: flex;
+    justify-content: center;
+        
+}
+
+.col div {
+    color: white;
+}
+
+#logos-contacto a img {
+    margin: 7px;
+    max-width: 50px;
+}
+
+.col iframe {
+    margin-top: 7px;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 50%;
 }
 
 /*
