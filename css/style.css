@@ -21,34 +21,48 @@ header {
 }
 
 
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28136, 210, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.navbar-dark .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
 
 .foto-inicio {
     max-width: 70px;
     border-radius: 50%;
     border: solid 3px #88D2FF;
-
 }
 
 .banner {
     width: 100%;
-
 }
 
 .que-es-overol {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 4%;
 }
 
-h2 span {
-    transition: 1s;
+h2 span {    
+    transition: 0.5s;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 h2 span:hover {
     color: #88D2FF;
-    margin: 2px;
+    margin: 3px;    
 }
 
 div h4 {
@@ -68,7 +82,7 @@ div p {
 
 #navbar-botons {
     color: white;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #navbar-botons:hover {
@@ -83,12 +97,12 @@ div p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-label2 {    
-    margin-top: 30px;
+.form-label1 {
+    margin-top: 5%;
 }
 
-#donde {
-    margin-top: 25px;
+.form-label2 {    
+    margin-top: 1%;
 }
 
 #exampleFormControlInput1 {
@@ -101,7 +115,7 @@ div p {
 
 #ilustracion {
     max-width: 100%;
-    margin-top: 1rem;
+    margin-top: 2%;
 }
 
 .boton-enviar {
@@ -128,6 +142,10 @@ div p {
     text-decoration: none;    
 }
 
+#nuestras-redes {
+    margin-top: 5%;
+}
+
 #logos-contacto {
     display: flex;
     justify-content: center;
@@ -146,8 +164,12 @@ div p {
 .col iframe {
     margin-top: 7px;
     border-radius: 10px;
-    max-width: 80%;
+    max-width: 100%;
     max-height: 50%;
+}
+
+#donde {
+    margin-top: 5%;
 }
 
 /*
@@ -181,22 +203,34 @@ header nav ul li a:hover {
 }
 */
 
-footer nav ul {
-    
+.foto-pie {    
+    max-width: 50px;
+    border-radius: 50%;
+    border: solid 3px #88D2FF;
+    transition: 0.5s;
+    }
+
+.foto-pie:hover {
+    max-width: 60px;
+
+}
+
+footer nav ul {        
     padding: 15px;
     display: flex;
+    align-items: center;
     justify-content: center;
     list-style-type: none;
 }
 
-footer nav ul li a {
+footer nav ul li a {   
+    
     font-size: 15px;
     color: white;
     text-decoration: none;
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 1s;
-
+    transition: 0.5s;
 }
 
 footer {
