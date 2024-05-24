@@ -1,12 +1,21 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body,
-html {
-    height: 100%;
-    width: 100%;
-}
+@import './base/reset';
 
 @import './layout/header';
+
+@import './layout/main';
+
+@import './layout/footer';
+
+@import './pagina-en-desarrollo/nofound';
+
+@import './secciones/nosotros';
+
+@import './secciones/contacto';
+
+
+
+
+
+
+
+
