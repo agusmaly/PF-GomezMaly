@@ -1,3 +1,5 @@
+@import '../utilities/variables';
+
 #ofeyrafa {
     display: flex;
     justify-content: end;
@@ -10,7 +12,7 @@
 }
 
 .parrafous {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $tipografia;
     font-size: 1.2rem;
     text-align: left;
     max-width: 100%;

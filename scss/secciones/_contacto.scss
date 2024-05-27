@@ -1,3 +1,5 @@
+@import '../utilities/variables';
+
 .form-label1 {
     margin-top: 5%;
 }
@@ -14,30 +16,7 @@
     margin: 6px;
 }
 
-.boton-enviar {
-    display: flex;
-    background-color: white;
-    padding: 5px;
-    display: inline;
-    border-radius: 3px;
-    transition: 0.5s;
-}
 
-.boton-enviar:hover {
-    padding: 7px;
-    background-color: #88D2FF;
-    font-size: 1.1rem;
-}
-
-.boton-enviar:active {
-    background-color: #68E717;
-}
-
-
-.boton-enviar a {
-    color: black;
-    text-decoration: none;
-}
 
 #nuestras-redes {
     margin-top: 5%;
@@ -50,7 +29,7 @@
 }
 
 .col div {
-    color: white;
+    color: $color-text;
 }
 
 #logos-contacto a img {

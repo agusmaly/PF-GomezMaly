@@ -1,0 +1,40 @@
+@import '../utilities/variables';
+
+div {
+    div {
+        div {           
+
+            .h4-izq {
+                display: flex;
+                justify-content: center;
+                
+            }
+
+            .ul-izq {
+                li {
+                    display: flex;
+                    justify-content: center;
+                    color: $color-text;
+                    list-style: none;                    
+                }
+            }
+        }
+        
+        div {
+            h4 {                
+                display: flex;
+                justify-content: center;                           
+
+            }
+
+            .ul-der {
+                li {
+                    display: flex;
+                    justify-content: center;
+                    color: $color-text;
+                    list-style: none;                           
+                }
+            }
+        }
+    }
+}

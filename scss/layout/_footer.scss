@@ -1,7 +1,9 @@
+@import '../utilities/variables';
+
 .foto-pie {
     max-width: 50px;
     border-radius: 50%;
-    border: solid 3px #88D2FF;
+    border: solid 3px $color-overol;
     transition: 0.5s;
 }
 
@@ -18,21 +20,22 @@ footer nav ul {
     list-style-type: none;
 }
 
+
 footer nav ul li a {
     font-size: 15px;
-    color: white;
+    color: $color-text;
     text-decoration: none;
     margin: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $tipografia;
     transition: 0.5s;
 }
 
 footer {
-    background-color: black;
+    background-color: $background-pleno;
     padding-top: 5%;
 }
 
 footer nav ul li a:hover {
-    color: #88D2FF;
+    color: $color-overol;
     margin: 15px;
 }

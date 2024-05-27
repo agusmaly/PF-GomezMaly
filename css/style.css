@@ -131,10 +131,6 @@ footer nav ul li a:hover {
   margin: 15px;
 }
 
-div h3 {
-  text-align: center;
-}
-
 #ofeyrafa {
   display: flex;
   justify-content: end;
@@ -168,30 +164,6 @@ div h3 {
   margin: 6px;
 }
 
-.boton-enviar {
-  display: flex;
-  background-color: white;
-  padding: 5px;
-  display: inline;
-  border-radius: 3px;
-  transition: 0.5s;
-}
-
-.boton-enviar:hover {
-  padding: 7px;
-  background-color: #88D2FF;
-  font-size: 1.1rem;
-}
-
-.boton-enviar:active {
-  background-color: #68E717;
-}
-
-.boton-enviar a {
-  color: black;
-  text-decoration: none;
-}
-
 #nuestras-redes {
   margin-top: 5%;
 }
@@ -219,6 +191,71 @@ div h3 {
 
 #donde {
   margin-top: 5%;
+}
+
+div div div .h4-izq {
+  display: flex;
+  justify-content: center;
+}
+div div div .ul-izq li {
+  display: flex;
+  justify-content: center;
+  color: white;
+  list-style: none;
+}
+div div div h4 {
+  display: flex;
+  justify-content: center;
+}
+div div div .ul-der li {
+  display: flex;
+  justify-content: center;
+  color: white;
+  list-style: none;
+}
+
+/*NO UTILIZO @extend porque no repito valores. Pero entiendo el funcionamiento*/
+.boton-enviar {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  display: inline;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.boton-enviar:hover {
+  padding: 7px;
+  background-color: #88D2FF;
+  font-size: 1.1rem;
+}
+
+.boton-enviar:active {
+  background-color: #68E717;
+}
+
+.boton-enviar a {
+  color: black;
+  text-decoration: none;
+}
+
+main .ver-proyectos {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+main .ver-proyectos a {
+  background-color: #88D2FF;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+main .ver-proyectos a:hover {
+  padding: 11px;
+  background-color: #68E717;
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

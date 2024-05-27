@@ -1,0 +1,56 @@
+@import '../utilities/variables';
+
+@mixin estilo-botones($display, $fondo, $padding, $display2, $border, $transition) {
+    display: $display;
+    background-color: $fondo;
+    padding: $padding;
+    display: $display2;
+    border-radius: $border;
+    transition: $transition;
+}
+
+/*NO UTILIZO @extend porque no repito valores. Pero entiendo el funcionamiento*/
+
+.boton-enviar {
+    @include estilo-botones(flex,$color-text,5px,inline,5px,00.5s)
+}
+
+.boton-enviar:hover {
+    padding: 7px;
+    background-color: $color-overol;
+    font-size: 1.1rem;
+}
+
+.boton-enviar:active {
+    background-color: #68E717;
+}
+
+
+.boton-enviar a {
+    color: black;
+    text-decoration: none;
+}
+
+
+main {
+    .ver-proyectos {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+
+        a {
+            background-color: $color-overol;
+            padding: 10px;
+            border-radius: 5px;
+            color: black;
+            text-decoration: none;
+            transition: 0.5s;            
+        }
+
+        a:hover {
+            padding: 11px;
+            background-color: #68E717;
+            font-size: 1.1rem;
+        }
+    }
+}
