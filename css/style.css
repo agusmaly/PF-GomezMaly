@@ -45,7 +45,7 @@ header {
 }
 
 main {
-  background-color: black;
+  background: black;
   margin-bottom: 0;
   min-height: 100%;
 }
@@ -58,7 +58,7 @@ main {
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 4%;
 }
 
@@ -193,25 +193,37 @@ footer nav ul li a:hover {
   margin-top: 5%;
 }
 
-div div div .h4-izq {
+main div h3 {
+  color: white;
+  margin-bottom: 7%;
+  text-align: center;
+  font-weight: lighter;
+}
+main section div div div .h4-izq {
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  transform: translateX(12px);
 }
-div div div .ul-izq li {
+main section div div div .ul-izq li {
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   color: white;
   list-style: none;
 }
-div div div h4 {
+main section div div div h4 {
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
-div div div .ul-der li {
+main section div div div .ul-der li {
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   color: white;
   list-style: none;
+  transform: translateX(-12px);
 }
 
 /*NO UTILIZO @extend porque no repito valores. Pero entiendo el funcionamiento*/

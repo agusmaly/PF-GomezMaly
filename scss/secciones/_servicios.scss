@@ -1,38 +1,57 @@
 @import '../utilities/variables';
 
-div {
+
+main {
     div {
-        div {           
-
-            .h4-izq {
-                display: flex;
-                justify-content: center;
-                
-            }
-
-            .ul-izq {
-                li {
-                    display: flex;
-                    justify-content: center;
-                    color: $color-text;
-                    list-style: none;                    
-                }
-            }
+        h3 {
+            color: $color-text;
+            margin-bottom: 7%;
+            text-align: center;
+            font-weight: lighter;
         }
-        
+    }
+    section {
         div {
-            h4 {                
-                display: flex;
-                justify-content: center;                           
+            div {
+                div {
 
-            }
+                    .h4-izq {
+                        margin-bottom: 20px;
+                        display: flex;
+                        justify-content: center;
+                        transform: translateX(12px);
 
-            .ul-der {
-                li {
-                    display: flex;
-                    justify-content: center;
-                    color: $color-text;
-                    list-style: none;                           
+                    }
+
+                    .ul-izq {
+                        li {
+                            margin-top: 5px;
+                            display: flex;
+                            justify-content: center;
+                            color: $color-text;
+                            list-style: none;
+                        }
+                    }
+                }
+
+                div {
+                    h4 {
+                        margin-bottom: 20px;
+                        display: flex;
+                        justify-content: center;
+
+                    }
+
+                    .ul-der {
+                        li {
+                            margin-top: 5px;
+                            display: flex;
+                            justify-content: center;
+                            color: $color-text;
+                            list-style: none;
+                            transform: translateX(-12px);
+                        }
+                    }
                 }
             }
         }
