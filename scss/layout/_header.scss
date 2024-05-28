@@ -24,13 +24,19 @@ header {
     border: solid 3px $color-overol;
 }
 
+.foto-inicio:hover {
+    max-width: 70px;
+    border-radius: 50%;
+    border: solid 3px #68E717;
+}
+
 #navbar-botons {
     color: $color-text;
     transition: 0.5s;
 }
 
 #navbar-botons:hover {
-    color: $color-overol;
+    color: #68E717;
     margin-left: 15px;
     margin-right: 15px;
 }

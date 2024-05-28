@@ -34,13 +34,19 @@ header {
   border: solid 3px #88D2FF;
 }
 
+.foto-inicio:hover {
+  max-width: 70px;
+  border-radius: 50%;
+  border: solid 3px #68E717;
+}
+
 #navbar-botons {
   color: white;
   transition: 0.5s;
 }
 
 #navbar-botons:hover {
-  color: #88D2FF;
+  color: #68E717;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -123,7 +129,7 @@ main {
   text-align: center;
   margin: 0 auto; /* Centra el texto */
   letter-spacing: 0.15em; /* Espaciado entre letras */
-  animation: typing 4s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+  animation: typing 5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -244,6 +250,12 @@ footer nav ul li a:hover {
   font-size: 1.2rem;
   text-align: left;
   max-width: 100%;
+}
+
+#logo-overol {
+  max-width: 55%;
+  border-radius: 5px;
+  display: flex;
 }
 
 .form-label1 {
