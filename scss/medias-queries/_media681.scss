@@ -1,0 +1,20 @@
+@media (max-width: 681px) {
+    .image-transition {
+        width: 100vw; /* 90% del ancho de la ventana */
+        height: 30vh; /* 30% de la altura de la ventana */
+        background-color: transparent; /* Fondo transparente para mostrar la imagen */
+    }
+
+    .image-transition::before {
+        clip-path: none; /* Elimina el clip-path para mostrar toda la imagen */
+        transition: none; /* Elimina la transición */
+    }
+
+    .image-transition:hover::before {
+        clip-path: none; /* Desactiva el clip-path */
+    }
+
+    .image-transition:hover {
+        cursor: default; /* Restablece el cursor */
+    }
+}
