@@ -368,23 +368,18 @@ main .ver-proyectos {
   justify-content: center;
 }
 main .ver-proyectos a {
-  background-color: white;
-  padding: 0 10px 0 10px;
-  border-radius: 5px;
-  color: black;
+  color: #68E717;
   font-size: 30px;
   text-decoration: none;
   transition: 0.5s;
 }
 main .ver-proyectos a:hover {
-  padding: 0 11px 0 11px;
-  background-color: #68E717;
-  font-size: 32px;
+  transform: scale(1.5);
 }
 
-@media (max-width: 681px) {
+@media (max-width: 762px) {
   .image-transition {
-    width: 100vw; /* 90% del ancho de la ventana */
+    width: 100%; /* 90% del ancho de la ventana */
     height: 30vh; /* 30% de la altura de la ventana */
     background-color: transparent; /* Fondo transparente para mostrar la imagen */
   }
@@ -397,9 +392,6 @@ main .ver-proyectos a:hover {
   }
   .image-transition:hover {
     cursor: default; /* Restablece el cursor */
-  }
-  footer {
-    padding-top: 100%;
   }
   .foto-enc {
     margin-top: 10px;
@@ -437,7 +429,7 @@ nav div div div:last-child .foto-enc {
   border-radius: 5px;
 }
 
-nav {
+nav h5 {
   margin-top: 50px;
 }
 nav div div div p {

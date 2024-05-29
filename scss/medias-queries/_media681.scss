@@ -1,6 +1,6 @@
-@media (max-width: 681px) {
+@media (max-width: 762px) {
     .image-transition {
-        width: 100vw; /* 90% del ancho de la ventana */
+        width: 100%; /* 90% del ancho de la ventana */
         height: 30vh; /* 30% de la altura de la ventana */
         background-color: transparent; /* Fondo transparente para mostrar la imagen */
     }
@@ -18,10 +18,7 @@
         cursor: default; /* Restablece el cursor */
     }
     
-    footer {        
-        padding-top: 100%;
-    }
-
+    
     .foto-enc {
         margin-top: 10px;
     }
@@ -29,5 +26,7 @@
     .alianza360 {
         
         transform: translateY(-100px);
-    }
+    }   
+    
+    
 }

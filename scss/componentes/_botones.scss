@@ -37,21 +37,18 @@ main {
         margin-top: 30px;
         display: flex;
         justify-content: center;
+        
 
-        a {
-            background-color: $color-text;
-            padding: 0 10px 0 10px;
-            border-radius: 5px;
-            color: black;
+        a {     
+            
+            color: $verde-overol;
             font-size: 30px;
             text-decoration: none;
-            transition: 0.5s;            
+            transition: 0.5s;                        
         }
 
-        a:hover {
-            padding: 0 11px 0 11px;
-            background-color: $verde-overol;
-            font-size: 32px;
+        a:hover {                        
+            transform: scale(1.5);
         }
     }
 }
