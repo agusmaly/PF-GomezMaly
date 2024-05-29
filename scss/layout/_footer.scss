@@ -3,12 +3,13 @@
 .foto-pie {
     max-width: 50px;
     border-radius: 50%;
-    border: solid 3px $color-overol;
+    border: solid 3px $color-text;
     transition: 0.5s;
 }
 
 .foto-pie:hover {
     max-width: 60px;
+    border: solid 3px $verde-overol;
 
 }
 
@@ -36,6 +37,6 @@ footer {
 }
 
 footer nav ul li a:hover {
-    color: $color-overol;
+    color: $verde-overol;
     margin: 15px;
 }
