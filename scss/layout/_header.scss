@@ -4,40 +4,46 @@ header {
     font-size: 1.2rem;
     padding: 20px;
     background-color: $background-pleno;
+    nav {
+        div {
+            .foto-inicio {
+                max-width: 70px;
+                border-radius: 50%;
+                border: solid 3px $color-text;
+            }            
+            .foto-inicio:hover {
+                max-width: 70px;
+                border-radius: 50%;
+                border: solid 3px $verde-overol;
+            }
+            .navbar-toggler {
+                border: none;
+            }
+
+        }
+        div {
+            #navbar-botons {
+                color: $color-text;
+                transition: 0.5s;
+            }
+            
+            #navbar-botons:hover {
+                color: $verde-overol;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
 
 }
+
+/*me resta meter esto, no lo hice porque me rompe un cambio que hice*/
 
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28104, 231, 23, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-dark .navbar-toggler {
-    border: none;
 }
 
 .navbar-dark .navbar-toggler:focus {
     box-shadow: none;
 }
 
-.foto-inicio {
-    max-width: 70px;
-    border-radius: 50%;
-    border: solid 3px $color-text;
-}
-
-.foto-inicio:hover {
-    max-width: 70px;
-    border-radius: 50%;
-    border: solid 3px $verde-overol;
-}
-
-#navbar-botons {
-    color: $color-text;
-    transition: 0.5s;
-}
-
-#navbar-botons:hover {
-    color: $verde-overol;
-    margin-left: 15px;
-    margin-right: 15px;
-}

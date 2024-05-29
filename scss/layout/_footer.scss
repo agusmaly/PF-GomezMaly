@@ -1,42 +1,43 @@
 @import '../utilities/variables';
 
-.foto-pie {
-    max-width: 50px;
-    border-radius: 50%;
-    border: solid 3px $color-text;
-    transition: 0.5s;
-}
-
-.foto-pie:hover {
-    max-width: 60px;
-    border: solid 3px $verde-overol;
-
-}
-
-footer nav ul {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-}
-
-
-footer nav ul li a {
-    font-size: 15px;
-    color: $color-text;
-    text-decoration: none;
-    margin: 5px;
-    font-family: $tipografia;
-    transition: 0.5s;
-}
-
 footer {
     background-color: $background-pleno;
     padding-top: 5%;
-}
-
-footer nav ul li a:hover {
-    color: $verde-overol;
-    margin: 15px;
+    nav {
+        ul {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            
+            .foto-pie {
+                max-width: 50px;
+                border-radius: 50%;
+                border: solid 3px $color-text;
+                transition: 0.5s;
+            }
+            
+            .foto-pie:hover {
+                max-width: 60px;
+                border: solid 3px $verde-overol;
+            
+            }
+            
+            li {                
+                a {
+                    font-size: 15px;
+                    color: $color-text;
+                    margin: 5px;
+                    text-decoration: none;
+                    transition: 0.5s;
+                    font-family: $tipografia;
+                }
+                a:hover {
+                    color: $verde-overol;
+                    margin: 15px;
+                }
+            }
+        }
+    }
 }
