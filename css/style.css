@@ -54,7 +54,6 @@ header {
 main {
   background: black;
   margin-bottom: 0;
-  padding-bottom: 100%;
   min-height: 100%;
 }
 
@@ -175,7 +174,7 @@ h2 span {
 }
 
 h2 span:hover {
-  color: #88D2FF;
+  color: #68E717;
   margin: 3px;
 }
 
@@ -369,17 +368,18 @@ main .ver-proyectos {
   justify-content: center;
 }
 main .ver-proyectos a {
-  background-color: #88D2FF;
-  padding: 10px;
+  background-color: white;
+  padding: 0 10px 0 10px;
   border-radius: 5px;
   color: black;
+  font-size: 30px;
   text-decoration: none;
   transition: 0.5s;
 }
 main .ver-proyectos a:hover {
-  padding: 11px;
+  padding: 0 11px 0 11px;
   background-color: #68E717;
-  font-size: 1.1rem;
+  font-size: 32px;
 }
 
 @media (max-width: 681px) {
@@ -401,12 +401,12 @@ main .ver-proyectos a:hover {
   footer {
     padding-top: 100%;
   }
-  .ilustracion-enc, nav div div div:last-child .foto-enc {
+  .foto-enc {
     margin-top: 10px;
   }
-}
-nav {
-  margin-bottom: 100px;
+  .alianza360 {
+    transform: translateY(-100px);
+  }
 }
 nav h5 {
   margin-left: 4%;
@@ -422,54 +422,49 @@ nav div div div:first-child p {
   margin-top: 70px;
   text-align: left;
 }
-nav div div div:nth-child(2) img {
+nav div div div:nth-child(2) .remera {
   box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
   -webkit-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
   -moz-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
   width: 100%;
   border-radius: 5px;
 }
-nav div div div:last-child .ilustracion-enc, nav div div div:last-child .foto-enc {
-  box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
-  -webkit-box-shadow: 4px 14px 55px -13px rgba(104, 231, 23, 0.74);
-  -moz-box-shadow: 4px 14px 55px -13px rgba(104, 231, 23, 0.74);
-  border-radius: 5px;
-  width: 49%;
-}
 nav div div div:last-child .foto-enc {
-  transform: translateY(100%);
-  margin-top: 10px;
+  box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
+  -webkit-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
+  -moz-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
+  width: 100%;
+  border-radius: 5px;
 }
 
-#segundo-nav div div:first-child h6 {
-  color: #68E717;
-  text-align: left;
+nav {
+  margin-top: 50px;
 }
-#segundo-nav div div:first-child span {
-  color: white;
-  display: block;
+nav div div div p {
+  font-size: 13px;
   margin-top: 70px;
   text-align: left;
 }
-#segundo-nav div div:first-child p {
-  font-size: 13px;
-  text-align: left;
-}
-#segundo-nav div div:nth-child(2) img {
+nav div div div .lavandera, nav div div div .nylon {
   box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
   -webkit-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
   -moz-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
-#segundo-nav div div:last-child img {
+nav div div div p {
+  margin-top: 0px;
+  font-size: 13px;
+  text-align: left;
+}
+nav div div div .alianza360 {
+  margin-top: 100px;
   box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
-  -webkit-box-shadow: 4px 14px 55px -13px rgba(104, 231, 23, 0.74);
-  -moz-box-shadow: 4px 14px 55px -13px rgba(104, 231, 23, 0.74);
+  -webkit-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
+  -moz-box-shadow: 4px 14px 95px -13px rgba(104, 231, 23, 0.74);
+  width: 100%;
   border-radius: 5px;
-  width: 49%;
-  border-radius: 5px;
-  width: 60%;
 }
 
 /*# sourceMappingURL=style.css.map */
