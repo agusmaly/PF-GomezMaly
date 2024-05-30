@@ -3,132 +3,136 @@
 main {    
     background: $background-pleno;
     margin-bottom: 0;    
-    min-height: 100%;   
-}
+    min-height: 100%;
+    /* Estilos iniciales para el div */
+    .image-transition {
+        h6 {
+            overflow: hidden; /* Esconde el texto que no está "escrito" aún */
+            border-right: 0.15em solid black; /* Barra para simular el cursor */
+            white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+            text-align: center;
+            margin: 0 auto; /* Centra el texto */
+            letter-spacing: 0.15em; /* Espaciado entre letras */
+            animation: typing 5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;  
+        }
 
-/* Estilos iniciales para el div */
-.image-transition {
-    width: 100%;
-    height: 350px;
-    background-color: black; /* Color inicial */
-    color: $verde-overol;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;    
-    overflow: hidden;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-}
+        width: 100%;
+        height: 350px;
+        background-color: black; /* Color inicial */
+        color: $verde-overol;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;    
+        overflow: hidden;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-.image-transition::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../../imagenes/banner\ overol.png'); /* Reemplaza esto con la ruta de tu imagen */
-    background-size: cover; /* Asegura que la imagen cubra todo el div */
-    background-position: center; /* Centra la imagen */
-    clip-path: circle(0% at 10% 10%);
-    transition: clip-path 0.3s ease;
-    pointer-events: none; /* Permite que los eventos del mouse pasen a través de este pseudo-elemento */
-}
+    .image-transition::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../imagenes/banner\ overol.png'); /* Reemplaza esto con la ruta de tu imagen */
+        background-size: cover; /* Asegura que la imagen cubra todo el div */
+        background-position: center; /* Centra la imagen */
+        clip-path: circle(0% at 10% 10%);
+        transition: clip-path 0.3s ease;
+        pointer-events: none; /* Permite que los eventos del mouse pasen a través de este pseudo-elemento */
+    }
+    @keyframes typing {
+        0% { width: 0 }
+        70% { width: 100% }
+        85% { width: 100% }
+        100% { width: 0 }
+    }
+    
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: black }
+    }
 
-.image-transition:hover::before {
+    .image-transition:hover::before {   
     clip-path: circle(50% at var(--x) var(--y));
+    }
+
+    .image-transition:hover {
+        cursor: none; /* Oculta el cursor para una mejor experiencia visual */
+    }
+
+    .image-transition {
+        --x: 50%;
+        --y: 50%;
+    }
+
+    .image-transition:hover {
+        cursor: none; /* Oculta el cursor */
+    }
+
+    .image-transition {
+        --x: 50%;
+        --y: 50%;
+    }
+
+    .image-transition:hover::before {
+        clip-path: circle(50% at var(--x) var(--y));
+    }
+
+    .image-transition {
+        --x: 50%;
+        --y: 50%;
+    }
+
+    .image-transition:hover {
+        cursor: none; /* Oculta el cursor */
+    }
+
+    .que-es-overol {
+        color: $color-text;
+        text-align: center;
+        font-family: $tipografia;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        
+        h2 span {
+            transition: 0.5s;
+            font-size: 2.5rem;
+            font-family: $tipografia;
+            font-weight: bold;
+        }
+        
+        h2 span:hover {
+            color: $verde-overol;
+            margin: 3px;    
+        }
+    }
+
+    div {
+        div {
+            div {
+                h4 {
+                    font-size: 150%;
+                    color: $color-text;
+                }
+                
+                #ilustracion {
+                    max-width: 100%;
+                    margin-top: 2%;
+                }
+                #parrafo1y2 {
+                    margin-top: 0.4rem;
+                }
+            }
+            div {
+                p {
+                    font-size: 70%;
+                    color: $color-text;
+                }
+            }
+        }
+    }
 }
 
-.image-transition:hover {
-    cursor: none; /* Oculta el cursor para una mejor experiencia visual */
-}
-
-.image-transition {
-    --x: 50%;
-    --y: 50%;
-}
-
-.image-transition:hover {
-    cursor: none; /* Oculta el cursor */
-}
-
-.image-transition {
-    --x: 50%;
-    --y: 50%;
-}
-
-.image-transition:hover::before {
-    clip-path: circle(50% at var(--x) var(--y));
-}
-
-.image-transition {
-    --x: 50%;
-    --y: 50%;
-}
-
-.image-transition:hover {
-    cursor: none; /* Oculta el cursor */
-}
-
-
-.image-transition h6 {
-    overflow: hidden; /* Esconde el texto que no está "escrito" aún */
-    border-right: 0.15em solid black; /* Barra para simular el cursor */
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-    text-align: center;
-    margin: 0 auto; /* Centra el texto */
-    letter-spacing: 0.15em; /* Espaciado entre letras */
-    animation: typing 5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;    
-}
-
-@keyframes typing {
-    0% { width: 0 }
-    70% { width: 100% }
-    85% { width: 100% }
-    100% { width: 0 }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-}
-
-.que-es-overol {
-    color: $color-text;
-    text-align: center;
-    font-family: $tipografia;
-    margin-top: 3%;
-    margin-bottom: 4%;
-}
-
-h2 span {
-    transition: 0.5s;
-    font-size: 2.5rem;
-    font-family: $tipografia;
-    font-weight: bold;
-}
-
-h2 span:hover {
-    color: $verde-overol;
-    margin: 3px;    
-}
-
-#ilustracion {
-    max-width: 100%;
-    margin-top: 2%;
-}
-
-div h4 {
-    font-size: 150%;
-    color: $color-text;
-}
-
-#parrafo1y2 {
-    margin-top: 0.4rem;
-}
-
-div p {
-    font-size: 70%;
-    color: $color-text;
-}

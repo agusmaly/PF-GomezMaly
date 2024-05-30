@@ -1,49 +1,61 @@
 @import '../utilities/variables';
 
-.form-label1 {
-    margin-top: 5%;
-}
+main {
+    div {
+        div {
+            color: $color-text;
+            div {
+                div {
+                    .form-label1 {
+                        margin-top: 5%;
+                    }
+                    #exampleFormControlInput1 {
+                        margin: 6px;
+                    }
+                }
+                div {
+                    .form-label2 {
+                        margin-top: 1%;
+                    }
+                    
+                    #exampleFormControlTextarea1 {
+                        margin: 6px;
+                    }
+                }
+            }
+            div {
+                #nuestras-redes {
+                    margin-top: 5%;
+                }
+                
+                #logos-contacto {
+                    display: flex;
+                    justify-content: center;
+                    a {
+                        img {
+                            margin: 7px;
+                            max-width: 50px;
+                            transition: 0.5s;
+                        }
+                        img:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                
+                }
+            }
+            div {
+                #donde {
+                    margin-top: 5%;
+                }
 
-.form-label2 {
-    margin-top: 1%;
-}
-
-#exampleFormControlInput1 {
-    margin: 6px;
-}
-
-#exampleFormControlTextarea1 {
-    margin: 6px;
-}
-
-
-
-#nuestras-redes {
-    margin-top: 5%;
-}
-
-#logos-contacto {
-    display: flex;
-    justify-content: center;
-
-}
-
-.col div {
-    color: $color-text;
-}
-
-#logos-contacto a img {
-    margin: 7px;
-    max-width: 50px;
-}
-
-.col iframe {
-    margin-top: 7px;
-    border-radius: 10px;
-    max-width: 100%;
-    max-height: 50%;
-}
-
-#donde {
-    margin-top: 5%;
+                iframe {
+                    margin-top: 7px;
+                    border-radius: 10px;
+                    max-width: 100%;
+                    max-height: 50%;
+                }
+            }
+        }
+    }
 }

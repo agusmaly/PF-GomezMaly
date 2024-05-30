@@ -1,25 +1,36 @@
 @import '../utilities/variables';
 
-#ofeyrafa {
-    display: flex;
-    justify-content: end;
+main {
+    div {
+        div {
+            #ofeyrafa {
+                display: flex;
+                justify-content: end;
+                #fotous {
+                    max-width: 100%;
+                    border-radius: 10px;
+                }
+            }
+            div {
+                .parrafous {
+                    font-family: $tipografia;
+                    font-size: 1.2rem;
+                    text-align: left;
+                    max-width: 100%;
+                }
+                #logo-overol {
+                    max-width: 55%;
+                    border-radius: 5px; 
+                    display: flex;   
+                }
+            }
+        }
+    }
 }
 
-#fotous {
-    max-width: 100%;
-    border-radius: 10px;
 
-}
 
-.parrafous {
-    font-family: $tipografia;
-    font-size: 1.2rem;
-    text-align: left;
-    max-width: 100%;
-}
 
-#logo-overol {
-    max-width: 55%;
-    border-radius: 5px; 
-    display: flex;   
-}
+
+
+

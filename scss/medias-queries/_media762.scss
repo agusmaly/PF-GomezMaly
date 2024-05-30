@@ -1,0 +1,62 @@
+@media (max-width: 762px) {
+
+    header {
+        nav {
+            div {
+                .foto-inicio {
+                    max-width: 50px;
+                }
+            }
+        }
+    }
+
+    main {
+        .image-transition {
+            width: 100%; /* 90% del ancho de la ventana */
+            height: 30vh; /* 30% de la altura de la ventana */
+            background-color: transparent; /* Fondo transparente para mostrar la imagen */
+        }
+    
+        .image-transition::before {
+            clip-path: none; /* Elimina el clip-path para mostrar toda la imagen */
+            transition: none; /* Elimina la transición */
+        }
+    
+        .image-transition:hover::before {
+            clip-path: none; /* Desactiva el clip-path */
+        }
+    
+        .image-transition:hover {
+            cursor: default; /* Restablece el cursor */
+        }   
+        
+        
+        
+
+    }
+
+    footer {
+        nav {
+            ul {
+                li {
+                    a{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .foto-enc {
+        margin-top: 10px;
+    }
+
+    .alianza360 {        
+        transform: translateY(-100px);
+    }
+    
+
+       
+    
+    
+}
